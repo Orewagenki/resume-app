@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import profileImg from "../assets/img/profile.webp";
 import { useEffect, useState } from "react";
 
 const Banner = () => {
@@ -64,7 +64,7 @@ const Banner = () => {
             </button>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <img src={headerImg} alt="Header Img" />
+            <img src={profileImg} alt="Header Img" />
           </Col>
         </Row>
       </Container>
