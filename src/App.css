@@ -389,6 +389,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  background-size: contain;
+}
+
+.proj-img {
+  width: 540px; /* you can use % */
 }
 .proj-imgbx::before {
   content: "";
@@ -412,6 +417,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 0;
   width: 100%;
 }
+
+.proj-txtx a {
+  text-decoration: none;
+}
+
 .proj-imgbx:hover .proj-txtx {
   top: 50%;
   opacity: 1;

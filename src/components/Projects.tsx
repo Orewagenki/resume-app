@@ -1,41 +1,45 @@
 import { Col, Container, Nav, Row, Tab } from "react-bootstrap";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import gameImage from "../assets/img/gameDiscovery.png";
+import foodAppImage from "../assets/img/foodapp.png";
+import workResumeImage from "../assets/img/workResume.png";
+import toDoAppImage from "../assets/img/todoApp.png";
+import angryBirdsImage from "../assets/img/angrybirdsGame.png";
 import ProjectCard from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 
 const Projects = () => {
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "video game discovery app",
+      description:
+        "This is a video game search application I created using React and Typescript",
+      imgUrl: gameImage,
+      link: "https://video-game-discovery-app-five.vercel.app/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Work Resume",
+      description:
+        "This is a my work resume I created using React and Typescript",
+      imgUrl: workResumeImage,
+      link: "https://resume-website-six-flax.vercel.app/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Angry Bird clone",
+      description: "This is an Angry Bird clone I made using unity.",
+      imgUrl: angryBirdsImage,
+      link: "https://play.unity.com/en/games/bc2e295a-ed35-4e1c-8c4c-373be254be9e/angry-bird-clone",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Food App",
+      description: "This is a recipe search application I created using React",
+      imgUrl: foodAppImage,
+      link: "https://foodapp-indol.vercel.app/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Todo app",
+      description: "This is a todo application I created using React",
+      imgUrl: toDoAppImage,
+      link: "https://todoapp-psi-liart.vercel.app/",
     },
   ];
 
@@ -73,8 +77,24 @@ const Projects = () => {
                     })}
                   </Row>
                 </Tab.Pane>
-                <Tab.Pane eventKey="second"> Lorem ipsum dolor</Tab.Pane>
-                <Tab.Pane eventKey="third"> Lorem ipsum dolor</Tab.Pane>
+                <Tab.Pane eventKey="second">
+                  {" "}
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cumque quam, quod neque provident velit, rem explicabo
+                    excepturi id illo molestiae blanditiis, eligendi dicta
+                    officiis asperiores delectus quasi inventore debitis quo.
+                  </p>
+                </Tab.Pane>
+                <Tab.Pane eventKey="third">
+                  {" "}
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cumque quam, quod neque provident velit, rem explicabo
+                    excepturi id illo molestiae blanditiis, eligendi dicta
+                    officiis asperiores delectus quasi inventore debitis quo.
+                  </p>
+                </Tab.Pane>
               </Tab.Content>
             </Tab.Container>
           </Col>
